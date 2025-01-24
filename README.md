@@ -1,6 +1,6 @@
 # DevStream: AI-Powered Full-Stack Web Development in the Browser
 
-DevStream is an AI-powered web development agent that allows you to prompt, run, edit, and deploy full-stack applications directly from your browser—no local setup required. If you're here to build you can get started at [devstream.dev](https://devstream.dev).
+DevStream is an AI-powered web development agent that allows you to prompt, run, edit, and deploy full-stack applications directly from your browser—no local setup required.
 
 ## What Makes DevStream Different
 
