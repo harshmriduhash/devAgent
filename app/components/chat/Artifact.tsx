@@ -27,10 +27,8 @@ interface ArtifactProps {
 export const Artifact = memo(({ messageId }: ArtifactProps) => {
   const userToggledActions = useRef(false);
   const [showActions, setShowActions] = useState(false);
-
   const artifacts = useStore(workbenchStore.artifacts);
   const artifact = artifacts[messageId];
-
   const actions = useStore(
     computed(artifact.runner.actions, (actions) => {
       return Object.values(actions);
